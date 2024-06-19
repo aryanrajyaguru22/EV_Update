@@ -82,7 +82,7 @@ header :hover {
 
 .hero-content h1 {
     font-size: 2.5em;
-    color: green;
+    color: #58B15D;
 }
 
 .hero-content p {
@@ -92,12 +92,12 @@ header :hover {
 }
 
 .cta-button {
-    background-color: green;
+    background-color: #58B15D;
     color: white;
     padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
-    margin: 20, 0px;
+    margin: 0, 0px;
 }
 
 .hero-image {
@@ -131,7 +131,7 @@ header :hover {
     
     text-align: center;
     padding: 1px;
-    color: #54a85a;
+    color: #58B15D;
     margin: -60px 0 -70px 0;
     border-radius: 92px;
     z-index: 1;
@@ -181,7 +181,7 @@ header :hover {
 .advantages h2 {
     text-align: center;
     font-size: 2rem;
-    color: #54a85a;
+    color: #58B15D;
     font-weight:bold;
 }
 
@@ -297,7 +297,7 @@ footer   ul li a {
     }
 
 footer a:hover{
-    color: #54a85a;
+    color: #58B15D;
     transition-duration: 10ms;
 }
 

@@ -43,7 +43,8 @@ nav {
 
 .menu a:hover {
     background-color: #54a85a;
-    color:#050505
+    color:#050505;
+    transition-duration: 10ms;
 }
 
 .menu-toggle {
@@ -59,11 +60,18 @@ nav {
     margin: 4px 0;
     transition: all 0.3s;
 }
+.btn {
+    background-color: #000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 20, 0px;
+}
 .hero {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 50px 20px;
     background-color: #f9f9f9;
 }
 
@@ -227,7 +235,7 @@ nav {
 }
 
 .reviews h2 {
-    font-size: 20px;
+    font-size: 2rem;
     margin-bottom: 20px;
     font-weight:bold;
 }
@@ -330,7 +338,7 @@ footer a:hover{
 }
 .foote_img img {
         
-    width: 300px;max-width: 100%;    margin-left: 228px;
+    width: 445px;max-width: 100%;    margin-left: 177px;
 }
 
 .fotim{
@@ -449,7 +457,7 @@ footer a:hover{
     }
     .foote_img img {
         
-            width: 250px;
+            width: 340px;
             max-width: 100%;
             margin-left: 0px;
         
@@ -492,6 +500,7 @@ footer a:hover{
     .hero {
         flex-direction: row;
         text-align: left;
+        padding: 100px 0px;
     }
 
     .menu {
@@ -525,10 +534,12 @@ footer a:hover{
 
     .hero-content h1 {
         font-size: 2.2em;
+        margin: 20px;
     }
 
     .hero-content p {
         font-size: 16px;
+        margin: 20px;
     }
 
     .cta-button {
@@ -580,7 +591,7 @@ footer a:hover{
     }
     .foote_img img {
         
-            width: 250px;
+            width: 460px;
             max-width: 100%;
             margin-left: 0px;
         
@@ -620,15 +631,17 @@ footer a:hover{
         width: 300px;
     }
     .hero {
-        padding: 70px 50px;
+        padding: 100px 0px;
     }
 
     .hero-content h1 {
         font-size: 2.8em;
+        margin: 20px;
     }
 
     .hero-content p {
         font-size: 16px;
+        margin: 20px;
     }
 
     .cta-button {
@@ -675,7 +688,7 @@ footer a:hover{
     }
     .foote_img img {
         
-            width: 250px;
+            width: 600px;
             max-width: 100%;
             margin-left: 0px;
         
@@ -712,15 +725,17 @@ footer a:hover{
 /* Desktop Styles */
 @media (min-width: 1441px) {
     .hero {
-        padding: 100px 100px;
+        padding: 100px 0px;
     }
 
     .hero-content h1 {
         font-size: 3em;
+        margin: 20px;
     }
 
     .hero-content p {
         font-size: 16px;
+        margin: 20px;
     }
 
     .cta-button {
